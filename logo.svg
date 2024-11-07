@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="40" viewBox="0 0 60 40">
+  <style>
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      fill: #ffffff;
+    }
+
+    .shadow {
+      fill: rgba(0, 122, 204, 0.5);
+      filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+    }
+
+    .curve {
+      fill: none;
+      stroke: #ffffff;
+      stroke-width: 1.5;
+    }
+
+    .bg {
+      fill: #007acc;
+      stroke: #ffffff;
+      stroke-width: 1;
+      rx: 2;
+    }
+  </style>
+  <rect class="bg" x="0" y="0" width="60" height="40" rx="5" />
+  <!-- Text Shadow -->
+  <text x="5" y="25" class="shadow">RegExY</text>
+  <!-- Main Text -->
+  <text x="4" y="24" class="title">RegExY</text>
+  <path class="curve" d="M 30,20 Q 40,10 50,20 T 30,30" />
+  <path class="curve" d="M 20,15 L 20,25" stroke="white" stroke-width="1.5" />
+  <path class="curve" d="M 50,15 L 50,25" stroke="white" stroke-width="1.5" />
+</svg>

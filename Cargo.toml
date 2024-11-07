@@ -1,0 +1,24 @@
+[package]
+name = "regexy"
+version = "0.1.0"
+authors = ["Montasir Mirghani <contact@montasir.me>"]
+edition = "2021"
+description = "A simple and lightweight Rust library for working with regular expressions. The regexy crate provides an easy-to-use interface for matching patterns in strings using regex"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/dr-montasir/regexy"
+repository = "https://github.com/dr-montasir/regexy"
+readme = "README.md"
+keywords = ["regexy", "text", "regex"]
+categories = ["text-processing"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.11.1"
+
+[lib]
+name = "regexy"
+path = "src/lib.rs"
+
+
+
