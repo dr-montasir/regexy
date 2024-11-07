@@ -1,6 +1,6 @@
 [package]
 name = "regexy"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Montasir Mirghani <contact@montasir.me>"]
 edition = "2021"
 description = "A simple and lightweight Rust library for working with regular expressions. The regexy crate provides an easy-to-use interface for matching patterns in strings using regex"

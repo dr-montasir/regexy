@@ -29,6 +29,8 @@ use regex::Regex;
 /// # Panics
 ///
 /// This function will panic if the regex compilation fails due to an invalid pattern.
+///
+/// <small>End Fun Doc</small>
 pub fn is_match(pattern: &str, text: &str) -> bool {
     let re = Regex::new(pattern).unwrap();
     re.is_match(text)
